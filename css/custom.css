@@ -182,9 +182,56 @@ margin-top: 0;
       =========================================================
       */
 
+.work-section {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.category_container {
+  width: 70%;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.category_item {
+  display: inline;
+  color: white;
+  cursor: pointer;
+  margin: 0 30px;
+  padding: 0 10px;
+
+}
 
 
+.block_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
+
+}
+
+.block_container img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+
+}
+
+.filter_item {
+  float: left;
+  transition: all 0.4s ease-in-out;
+}
+
+.hide {
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out;
+}
 
 
 
@@ -397,6 +444,10 @@ h1 {
     opacity: 1;
     left: 0;
   }
+}
+/* FIX BG COLOUR FOR WHOLE PAGE */
+body {
+  background-color: #1a1a1a;
 }
 
 /* THIS IS THE STYLES FOR IPAD AND DESKTOP */
