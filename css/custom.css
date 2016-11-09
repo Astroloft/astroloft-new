@@ -125,11 +125,62 @@ margin-top: 0;
 
 /* START OF TEAM CSS */
 
+.team-section {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
+}
 
+.member {
+  flex-wrap: wrap;
+}
 
+.team-section h1 {
+  margin: 0;
+  font-size: 1.7em;
+  padding: 40px 0;
 
+}
 
+.member img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.member p {
+  font-style: italic;
+}
+
+.member {
+  padding-bottom: 30px;
+}
+
+/* START OF WORK SECTION CSS*/
+
+.work-section {
+  background-color: #1a1a1a;
+}
+
+.work-section h1 {
+  color: white;
+  margin: 0 auto;
+  font-size: 1.7em;
+  padding: 40px 0;
+}
+
+/* THIS IS THE START OF MY IMAGE FILTER ATTEMPT FOR MOBILE */
+/* =========================================================
+   =========================================================
+   =========================================================
+    =========================================================
+     =========================================================
+      =========================================================
+      */
 
 
 
