@@ -139,27 +139,28 @@ h1 {
   background: #FFF;
 }
 .button_container span {
-  background: #FF5252;
+  background: white;
   border: none;
   height: 5px;
   width: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+
+  top: -10px;
+  left: -20px;
   -webkit-transition: all .35s ease;
   transition: all .35s ease;
   cursor: pointer;
 }
 .button_container span:nth-of-type(2) {
-  top: 11px;
+  top: 1px;
 }
 .button_container span:nth-of-type(3) {
-  top: 22px;
+  top: 12px;
 }
 
 .overlay {
   position: fixed;
-  background: #FF5252;
+  background: #444;
   top: 0;
   left: 0;
   width: 100%;
